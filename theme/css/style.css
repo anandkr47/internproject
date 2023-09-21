@@ -618,7 +618,7 @@ ul.dropdown-menu li {
   content: "";
   left: 0px;
   top: 0px;
-  width: 45%;
+  width: 55%;
   min-height: 650px;
   background: url("../images/about/ourstory.png") no-repeat;
   border-radius: 10px;
