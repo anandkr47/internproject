@@ -3,7 +3,16 @@
 @@include('blocks/navigation.htm',{"about":"active", "company":"active"})
 
 @@include('blocks/page-title.htm', { "page-name": "Achivements.", "title": "Achivements." })
-
+<style>
+.card {
+	height: 100%; /* Set a fixed height for the cards */
+	
+}
+.card:hover {
+transform: scale(1.05); /* Scale up by 5% on hover */
+transition: transform 0.3s ease-in-out; /* Smooth animation */
+}
+</style>
 <!-- Section About Start -->
 <section class="section about-2 position-relative">
 	<div class="container">
@@ -19,7 +28,7 @@
 			</div>
 			<div class="col-lg-6">
 				<div class="about-item-img">
-					<img loading="lazy" src="images/about/achievements.jpg" alt="about-image" class="img-fluid" style="border-radius: 50%;">
+					<img loading="lazy" src="images/about/achievements.jpg" alt="about-image" class="img-fluid shadow-lg" style="border-radius: 50%;">
 				</div>
 			</div>
 		</div>
@@ -29,30 +38,35 @@
 <!-- Section About End -->
  
 <section class="about-info section pt-0">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="about-info-item mb-4 mb-lg-0">
-					<h3 class="mb-3"><span class="text-color mr-2 text-md ">01.</span>High Exam Security and Integrity</h3>
-					<p>Achieving a track record of maintaining the highest level of exam security and integrity is a significant accomplishment. This includes preventing cheating and ensuring that exam results accurately reflect the abilities of the test-takers.</p>
-				</div>		
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="about-info-item mb-4 mb-lg-0">
-					<h3 class="mb-3"><span class="text-color mr-2 text-md">02.</span>Scalability and Accessibility</h3>
-					<p> Successfully scaling up the platform to accommodate a growing number of users and making examinations accessible to a wide range of candidates, regardless of their location, is a key achievement. This can involve expanding testing centers or improving online infrastructure.</p>
-				</div>		
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="about-info-item mb-4 mb-lg-0">
-					<h3 class="mb-3"><span class="text-color mr-2 text-md">03.</span>Client Satisfaction and Retention</h3>
-					<p> Maintaining a high level of client satisfaction and retention is vital. Consistently delivering reliable and user-friendly examination solutions that meet the needs of educational institutions, corporations, or certification bodies demonstrates the company's commitment to excellence.</p>
-				</div>		
-			</div>
-		</div>
-	</div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="card shadow mb-4"> <!-- Add 'card' and 'shadow' classes -->
+                    <div class="card-body">
+                        <h3 class="mb-3"><span class="text-color mr-2 text-md ">01.</span>High Exam Security and Integrity</h3>
+                        <p>Achieving a track record of maintaining the highest level of exam security and integrity is a significant accomplishment. This includes preventing cheating and ensuring that exam results accurately reflect the abilities of the test-takers.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="card shadow mb-4"> <!-- Add 'card' and 'shadow' classes -->
+                    <div class="card-body">
+                        <h3 class="mb-3"><span class="text-color mr-2 text-md">02.</span>Scalability and Accessibility</h3>
+                        <p> Successfully scaling up the platform to accommodate a growing number of users and making examinations accessible to a wide range of candidates, regardless of their location, is a key achievement. This can involve expanding testing centers or improving online infrastructure.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="card shadow mb-4"> <!-- Add 'card' and 'shadow' classes -->
+                    <div class="card-body">
+                        <h3 class="mb-3"><span class="text-color mr-2 text-md">03.</span>Client Satisfaction and Retention</h3>
+                        <p> Maintaining a high level of client satisfaction and retention is vital. Consistently delivering reliable and user-friendly examination solutions that meet the needs of educational institutions, corporations, or certification bodies demonstrates the company's commitment to excellence.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
-
 <section class="position-relative ">
 	<div class="container">
 		<div class="row">
