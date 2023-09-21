@@ -116,7 +116,16 @@
     </div>
   </div>
 </section>
-
+<style>
+	.card {
+            height: 100%; /* Set a fixed height for the cards */
+			
+        }
+	.card:hover {
+		transform: scale(1.05); /* Scale up by 5% on hover */
+		transition: transform 0.3s ease-in-out; /* Smooth animation */
+	}
+</style>
 <div class="row justify-content-center">
     <div class="col-lg-7 text-center">
         <div class="section-title">
@@ -190,43 +199,45 @@
 </section>
 
 <section class="section intro">
-	<div class="container">
-		<div class="row ">
-			<div class="col-lg-8">
-				<div class="section-title">
-					
-					<h2 class="mt-3 content-title">Our Expertise</h2>
-				</div>
-			</div>
-		</div>
-		<div class="row justify-content-center">
-			<div class="col-lg-4 col-md-6 col-12">
-				<div class="intro-item mb-5 mb-lg-0">
-					<i class="ti-desktop color-one"></i>
-					<h4 class="mt-4 mb-3">DIGITAL MARKETING</h4>
-					<p>We understand, plan and successfully implement digital marketing strategy for consistent growth and prosperity.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="intro-item mb-5 mb-lg-0">
-					<i class="ti-bookmark-alt color-one"></i>
-
-					<h4 class="mt-4 mb-3">CREATIVE CAMPAIGNS</h4>
-					<p>We design customized campaigns for our clients that turn heads and capture attention in this ever changing world of materialism.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-12">
-				<div class="intro-item">
-					<i class="ti-light-bulb color-one"></i>
-
-					<h4 class="mt-4 mb-3">TECHNOLOGY</h4>
-					<p>Our technological solutions befit the advancement of 21st century. From website to applications, we innovate it all.</p>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-8">
+                <div class="section-title">
+                    <h2 class="mt-3 content-title">Our Expertise</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card shadow mb-5 mb-lg-0"> <!-- Add 'card' and 'shadow' classes -->
+                    <div class="card-body">
+                        <i class="ti-desktop color-one fa-5x mb-4"></i>
+                        <h4 class="mt-4 mb-3">DIGITAL MARKETING</h4>
+                        <p>We understand, plan, and successfully implement digital marketing strategy for consistent growth and prosperity.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow mb-5 mb-lg-0"> <!-- Add 'card' and 'shadow' classes -->
+                    <div class="card-body">
+                        <i class="ti-bookmark-alt color-one fa-5x mb-4"></i>
+                        <h4 class="mt-4 mb-3">CREATIVE CAMPAIGNS</h4>
+                        <p>We design customized campaigns for our clients that turn heads and capture attention in this ever-changing world of materialism.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="card shadow mb-5 mb-lg-0"> <!-- Add 'card' and 'shadow' classes -->
+                    <div class="card-body">
+                        <i class="ti-light-bulb color-one fa-5x mb-4"></i>
+                        <h4 class="mt-4 mb-3">TECHNOLOGY</h4>
+                        <p>Our technological solutions befit the advancement of the 21st century. From website to applications, we innovate it all.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
-
 <!-- Section Intro END -->
 
 
