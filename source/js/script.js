@@ -44,6 +44,7 @@
 		});
 	}
 
+	
 	// navbarDropdown
 	if ($(window).width() < 992) {
 		$('#navbar .dropdown-toggle').on('click', function () {
@@ -96,3 +97,55 @@
 	}
 
 })(jQuery);
+	// banner-carousel
+	function bannerCarouselOne() {
+		$('.banner-carousel.banner-carousel-1').slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			autoplay: true,
+			dots: true,
+			speed: 600,
+			arrows: true,
+			prevArrow: '<button type="button" class="carousel-control left" aria-label="carousel-control"><i class="fas fa-chevron-left"></i></button>',
+			nextArrow: '<button type="button" class="carousel-control right" aria-label="carousel-control"><i class="fas fa-chevron-right"></i></button>'
+		});
+		$('.banner-carousel.banner-carousel-1').slickAnimation();
+	}
+	bannerCarouselOne();
+
+
+	// banner Carousel Two
+	function bannerCarouselTwo() {
+		$('.banner-carousel.banner-carousel-2').slick({
+			fade: true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			autoplay: true,
+			dots: false,
+			speed: 600,
+			arrows: true,
+			prevArrow: '<button type="button" class="carousel-control left" aria-label="carousel-control"><i class="fas fa-chevron-left"></i></button>',
+			nextArrow: '<button type="button" class="carousel-control right" aria-label="carousel-control"><i class="fas fa-chevron-right"></i></button>'
+		});
+	}
+	bannerCarouselTwo();
+
+
+	// pageSlider
+	function pageSlider() {
+		$('.page-slider').slick({
+			fade: true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			autoplay: true,
+			dots: false,
+			speed: 600,
+			arrows: true,
+			prevArrow: '<button type="button" class="carousel-control left" aria-label="carousel-control"><i class="fas fa-chevron-left"></i></button>',
+			nextArrow: '<button type="button" class="carousel-control right" aria-label="carousel-control"><i class="fas fa-chevron-right"></i></button>'
+		});
+	}
+	pageSlider();
+
+
+	// Shuffle js filter and masonry
