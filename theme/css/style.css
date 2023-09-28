@@ -106,12 +106,12 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 
 .btn-main, .btn-small, .btn-transparent {
   background: rgb(126, 111, 253);
-  color: #fff;
+  color: aqua;
   transition: all 0.2s ease;
 }
 .btn-main:hover, .btn-small:hover, .btn-transparent:hover {
   background: #513dfc;
-  color: #fff;
+  color: aqua;
 }
 
 .btn-solid-border {
@@ -298,10 +298,10 @@ a:focus {
   padding: 100px 0;
 }
 .page-title .block h1 {
-  color: #fff;
+  color: aqua;
 }
 .page-title .block p {
-  color: #fff;
+  color: aqua;
 }
 
 .page-wrapper {
@@ -676,7 +676,7 @@ a:focus {
 }
 
 #navbar {
-  background: #67685f;
+  background: #fffdd0;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 #navbar li {
@@ -690,7 +690,7 @@ a:focus {
 #navbar .nav-link {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  color: #fff;
+  color: aqua;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 0.5px;
@@ -702,7 +702,7 @@ a:focus {
 }
 #navbar .btn {
   padding: 0.7rem 1.5rem 0.5rem;
-  color: #fff;
+  color: aqua;
 }
 @media (max-width: 992px) {
   #navbar .btn {
@@ -736,7 +736,7 @@ a:focus {
   font-size: 16px;
 }
 .header-top .header-top-info a span {
-  color: #fff;
+  color: aqua;
 }
 .header-top .header-top-info a {
   margin-left: 35px;
@@ -746,14 +746,14 @@ a:focus {
 .navbar-toggler {
   padding: 0;
   font-size: 1.5rem;
-  color: #F9F7F1;
+  color: blue;
 }
 .navbar-toggler:focus {
   outline: 0;
 }
 
 .navbar-brand {
-  color: #fff;
+  color: aqua;
   font-weight: 600;
   letter-spacing: 1px;
 }
@@ -826,7 +826,7 @@ a:focus {
 .dropdown-item.active,
 .dropdown-item:hover {
   background: rgb(126, 111, 253);
-  color: #fff;
+  color: aqua;
 }
 
 ul.dropdown-menu li {
@@ -884,7 +884,7 @@ ul.dropdown-menu li {
   font-size: 70px;
   line-height: 80px;
   font-weight: 600;
-  color: #fff;
+  color: aqua;
 }
 .slider .block p {
   margin-bottom: 30px;
@@ -1004,7 +1004,7 @@ ul.dropdown-menu li {
 
 .team-img-hover li a {
   display: inline-block;
-  color: #fff;
+  color: aqua;
   width: 50px;
   height: 50px;
   font-size: 20px;
@@ -1547,7 +1547,7 @@ h3.quote::before {
   transition: all 0.3s ease;
 }
 .widget.widget-tag ul li a:hover {
-  color: #fff;
+  color: aqua;
   background: rgb(126, 111, 253);
   border: 1px solid rgb(126, 111, 253);
 }
@@ -1637,7 +1637,7 @@ h3.quote::before {
 }
 @media (max-width: 768px) {
   .navbar-toggler {
-    color: #fff;
+    color: aqua;
   }
   .bg-about {
     display: none;
@@ -1660,7 +1660,7 @@ h3.quote::before {
     margin-right: 10px;
   }
   .navbar-toggler {
-    color: #fff;
+    color: aqua;
   }
   .slider .block h1 {
     font-size: 38px;
@@ -1692,7 +1692,7 @@ h3.quote::before {
     display: block;
   }
   .navbar-toggler {
-    color: #fff;
+    color: aqua;
   }
   .content-title {
     font-size: 28px;
