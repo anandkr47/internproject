@@ -227,10 +227,10 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   background: #000;
 }
 
-.overly-2, .latest-blog, .cta-block, .bg-counter {
+.overly-2, .latest-blog, .cta-block, .bg-solution, .bg-counter {
   position: relative;
 }
-.overly-2:before, .latest-blog:before, .cta-block:before, .bg-counter:before {
+.overly-2:before, .latest-blog:before, .cta-block:before, .bg-solution:before, .bg-counter:before {
   content: "";
   position: absolute;
   left: 0;
@@ -970,6 +970,11 @@ ul.dropdown-menu li {
 .bg-counter {
   background: url("../images/bg/counter.jpg") no-repeat;
   background-size: cover;
+}
+
+.bg-solution {
+  background: url("../images/bg/colin.gif") no-repeat;
+  background-size: 100% 100%;
 }
 
 .team-img-hover .team-social li a.facebook {
