@@ -227,10 +227,10 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   background: #000;
 }
 
-.overly-2, .latest-blog, .cta-block, .myachivement, .achivement, .bg-solution, .bg-counter {
+.overly-2, .latest-blog, .cta-block, .elearning, .myachivement, .achivement, .bg-solution, .bg-counter {
   position: relative;
 }
-.overly-2:before, .latest-blog:before, .cta-block:before, .myachivement:before, .achivement:before, .bg-solution:before, .bg-counter:before {
+.overly-2:before, .latest-blog:before, .cta-block:before, .elearning:before, .myachivement:before, .achivement:before, .bg-solution:before, .bg-counter:before {
   content: "";
   position: absolute;
   left: 0;
@@ -926,7 +926,7 @@ ul.dropdown-menu li {
   top: 0px;
   width: 55%;
   min-height: 650px;
-  background: url("../images/about/ourstory.png") no-repeat;
+  background: url("../images/bg/colin.gif") no-repeat;
   border-radius: 10px;
   background-size: cover;
 }
@@ -984,6 +984,11 @@ ul.dropdown-menu li {
 
 .myachivement {
   background: url("../images/bg/counter.jpg") no-repeat;
+  background-size: cover;
+}
+
+.elearning {
+  background: url("../images/bg/exams.gif") no-repeat;
   background-size: cover;
 }
 
