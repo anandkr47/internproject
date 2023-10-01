@@ -37,3 +37,9 @@
 	background-size: cover;
 	@extend .overly-2;
 }
+
+.typingtest{
+	background: url("../images/bg/typing.gif")no-repeat;
+	background-size: 100% 100%;
+	@extend .overly-2;
+}
