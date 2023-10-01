@@ -227,10 +227,10 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   background: #000;
 }
 
-.overly-2, .latest-blog, .cta-block, .development, .itinfrastructure, .itsecuritysolotion, .typingtest, .elearning, .myachivement, .achivement, .bg-solution, .bg-counter {
+.overly-2, .latest-blog, .cta-block, .digital-marketings, .development, .itinfrastructure, .itsecuritysolotion, .typingtest, .elearning, .myachivement, .achivement, .bg-solution, .bg-counter {
   position: relative;
 }
-.overly-2:before, .latest-blog:before, .cta-block:before, .development:before, .itinfrastructure:before, .itsecuritysolotion:before, .typingtest:before, .elearning:before, .myachivement:before, .achivement:before, .bg-solution:before, .bg-counter:before {
+.overly-2:before, .latest-blog:before, .cta-block:before, .digital-marketings:before, .development:before, .itinfrastructure:before, .itsecuritysolotion:before, .typingtest:before, .elearning:before, .myachivement:before, .achivement:before, .bg-solution:before, .bg-counter:before {
   content: "";
   position: absolute;
   left: 0;
@@ -1010,6 +1010,11 @@ ul.dropdown-menu li {
 .development {
   background: url("../images/bg/development.gif") no-repeat;
   background-size: 70% 100%;
+}
+
+.digital-marketings {
+  background: url("../images/bg/computer.gif") no-repeat;
+  background-size: 100% 100%;
 }
 
 .team-img-hover .team-social li a.facebook {
