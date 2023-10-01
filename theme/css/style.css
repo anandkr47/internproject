@@ -313,6 +313,7 @@ a:focus {
   background-color: black;
   z-index: 999999;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
