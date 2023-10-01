@@ -43,3 +43,18 @@
 	background-size: 100% 100%;
 	@extend .overly-2;
 }
+.itsecuritysolotion{
+	background: url("../images/bg/security.gif")no-repeat;
+	background-size: 100% 100%;
+	@extend .overly-2;
+}
+.itinfrastructure{
+	background: url("../images/bg/itinfra.gif")no-repeat;
+	background-size: cover;
+	@extend .overly-2;
+}
+.development{
+	background: url("../images/bg/development.gif")no-repeat;
+	background-size: 70% 100%;
+	@extend .overly-2;
+}
